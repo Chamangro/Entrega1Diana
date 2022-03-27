@@ -71,11 +71,15 @@ Donde tendremos toda la información sobre los autores
 
 Donde tendremos toda la información sobre los géneros literarios
 
-# **Contamos con 3 formularios para ingresar datos en los distintos models**
+# Forms
+
+**Contamos con 3 formularios para ingresar datos en los distintos models**
 
 **Formulario de Libros** _path /libroFormulario_
 **Formulario de Autores** _path /autorFormulario_
 **Formulario de Género** _path /generoFormulario_
+
+# Búsqueda
 
 Por último, tenemos una búsqueda de libros _path /busquedaLibro_
 
