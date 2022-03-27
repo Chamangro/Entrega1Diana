@@ -16,20 +16,35 @@ Para poder visualizarlo debemos contar con
 Realizamos algunos imports que serán necesarios para la entrega final, pero que a efectos de esta entrega no utilizamos:
 
 _from django.views.generic import ListView
+
 from django.views.generic.detail import DetailView
+
 from django.views.generic.edit import CreateView
+
 from django.urls import reverse_lazy
+
 from django.views.generic.edit import UpdateView
+
 from django.views.generic.edit import DeleteView
+
 from django.http.request import QueryDict
+
 from django.shortcuts import render, HttpResponse
+
 from django.http import HttpResponse
+
 from django.urls import path
+
 from django.contrib import admin
+
 from django.core.asgi import get_asgi_application
+
 from django.db import models
+
 from django import forms
+
 from django.contrib import admin
+
 from .models import * _
 
 Contamos con 3 models:
