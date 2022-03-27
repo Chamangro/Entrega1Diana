@@ -5,8 +5,11 @@ Esta es la primera entrega del proyecto final curso Python - Coderhouse
 ## Instalación
 
 Para poder visualizarlo debemos contar con
+
 -Git
+
 -VisualStudio Code, terminal o algún otro editor de código
+
 -Django
 
 ## Usage
