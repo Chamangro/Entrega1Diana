@@ -56,12 +56,15 @@ class Genero
 La página emula una tienda de libros, contamos con distintas secciones:
 
 **Libros** _path /libros_
+
 Donde se encontrará toda la información de los libros
 
 **Autores** _path /autores_
+
 Donde tendremos toda la información sobre los autores
 
 **Géneros** _path /genero_
+
 Donde tendremos toda la información sobre los géneros literarios
 
 **Contamos con 3 formularios para ingresar datos en los distintos models**
