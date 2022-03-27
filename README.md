@@ -15,7 +15,7 @@ Para poder visualizarlo debemos contar con
 ## Usage
 Realizamos algunos imports que serán necesarios para la entrega final, pero que a efectos de esta entrega no utilizamos:
 
-_from django.views.generic import ListView
+from django.views.generic import ListView
 
 from django.views.generic.detail import DetailView
 
@@ -45,7 +45,7 @@ from django import forms
 
 from django.contrib import admin
 
-from .models import * _
+from .models import *
 
 Contamos con 3 models:
 
