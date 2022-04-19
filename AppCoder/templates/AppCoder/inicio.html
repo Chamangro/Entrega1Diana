@@ -1,10 +1,41 @@
-{% extends 'AppCoder/padre.html'%}
+{% extends "AppCoder/padre.html" %}
+
 {% load static %}
+
 {% block contenidoQueCambia %}
 
-<h1>Inicio - Bienvenido :)</h1>
-<p>Herencia de la plantilla padre</p>
 
-<h3>inicio.html tiene poco código</h3>
+<div class="text-center">
+    <img height="100px" src="{{url}}" >
+    <h3>¡Que bueno verte {{user.username}}!</h3>
+</div>
+
+    <h3>Podes buscar un libro de nuestra biblioteca:</h3>
+
+    <form action="/buscar/" method="GET">
+
+        <input type="text" name="titulo" id="titulo">
+
+        <input type="submit" value="Buscar">
+
+
+
+
+    </form>
+
+    
+
+    {% if libros %}
+
+    <p>Estamos buscando libros que contengan: '{{titulo}}'</p>
+
+    <ul>
+	{% for libro in libros %}
+		<li> {{libro.titulo}}, escrito por {{libro.autor}}, publicado en el año {{libro.fecha}}</li>
+	{% endfor %}
+
+    </ul>
+
+    {% endif %}
 
 {% endblock %}
